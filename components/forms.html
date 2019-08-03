@@ -1,0 +1,584 @@
+
+<!DOCTYPE HTML>
+<html lang="pt-br" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Formulários · React: Zero to Hero</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Alefe Souza <contact@alefesouza.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="styles.html" />
+    
+    
+    <link rel="prev" href="lifecycles.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/alefesouza/workshop-react/tree/master" target="_blank" class="custom-link">Código final</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://speakerdeck.com/alefesouza/react-zero-to-hero" target="_blank" class="custom-link">Slides</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">React: Zero to Hero</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introdução
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../nodejs/">
+            
+                <a href="../nodejs/">
+            
+                    
+                    Node.js
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../nodejs/transpiler.html">
+            
+                <a href="../nodejs/transpiler.html">
+            
+                    
+                    Transpilação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../react/">
+            
+                <a href="../react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../react/start-project.html">
+            
+                <a href="../react/start-project.html">
+            
+                    
+                    Iniciar projeto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../react/virtual-dom.html">
+            
+                <a href="../react/virtual-dom.html">
+            
+                    
+                    Virtual DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../react/jsx.html">
+            
+                <a href="../react/jsx.html">
+            
+                    
+                    JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Componentes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="stateless.html">
+            
+                <a href="stateless.html">
+            
+                    
+                    Stateless
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="stateful.html">
+            
+                <a href="stateful.html">
+            
+                    
+                    Stateful
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="lifecycles.html">
+            
+                <a href="lifecycles.html">
+            
+                    
+                    Life Cycles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.4" data-path="forms.html">
+            
+                <a href="forms.html">
+            
+                    
+                    Formulários
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="styles.html">
+            
+                <a href="styles.html">
+            
+                    
+                    Estilos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../router/">
+            
+                <a href="../router/">
+            
+                    
+                    Rotas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../api/">
+            
+                <a href="../api/">
+            
+                    
+                    Consumindo uma API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../about/">
+            
+                <a href="../about/">
+            
+                    
+                    Sobre o autor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Formulários</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="formul&#xE1;rios">Formul&#xE1;rios</h1>
+<p>J&#xE1; vimos como funciona o JSX, sistema de props, state e eventos, agora como podemos receber inputs do usu&#xE1;rio?</p>
+<p>Diferente do Angular e Vue.js, o React n&#xE3;o possui sistema de data binding de formul&#xE1;rios integrados ao template, ele &#xE9; fortemente baseado em JavaScript, no entando podemos simular isto atribuindo eventos de onChange a campos de texto, checkbox, radio buttons, etc, e ent&#xE3;o alterar o estado do componente com o ovo valor.</p>
+<p>Crie o arquivo <strong>src/HelloForm.js</strong> e adicione o c&#xF3;digo a seguir:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloForm</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    state = {
+        texto: <span class="hljs-string">&apos;&apos;</span>
+    };
+
+    handleTextChange(e) {
+        <span class="hljs-keyword">this</span>.setState({
+            texto: e.target.value
+        });
+    }
+
+    handleClick() {
+        alert(<span class="hljs-keyword">this</span>.state.texto);
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                Digite o texto: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleTextChange.bind(this)}</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">input</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{this.state.texto}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick.bind(this)}</span>&gt;</span>Exibir alerta<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> HelloForm;
+</code></pre>
+<p>Agora deixe nosso <strong>src/App.js</strong> assim:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> HelloStateless <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./HelloStateless&apos;</span>;
+<span class="hljs-keyword">import</span> HelloStateful <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./HelloStateful&apos;</span>;
+<span class="hljs-keyword">import</span> HelloForm <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./HelloForm&apos;</span>;
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">App</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">HelloStateless</span> <span class="hljs-attr">nome</span>=<span class="hljs-string">&quot;seu nome&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloStateless</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">HelloStateful</span> <span class="hljs-attr">nome</span>=<span class="hljs-string">&quot;seu nome&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloStateful</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">HelloStateful</span> <span class="hljs-attr">nome</span>=<span class="hljs-string">&quot;outro nome&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloStateful</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">HelloForm</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloForm</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+  );
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> App;
+</code></pre>
+<p>Quando voc&#xEA; digitar algo nesse campo de texto, o valor dele j&#xE1; vai ser exibido embaixo, como na imagem a seguir:</p>
+<p><img src="assets/5.png" alt="Resultado do c&#xF3;digo acima, com campo de texto alterado"></p>
+<p>Como alteramos o estado, podemos utilizar o mesmo em qualquer lugar do componente, como por exemplo no evento de clique:</p>
+<p><img src="assets/6.png" alt="Resultado do c&#xF3;digo acima, com campo de texto alterado e bot&#xE3;o clicado"></p>
+<p>Note que sempre que alteramos o valor do campo de texto o m&#xE9;todo <code>handleTextChange</code> &#xE9; executado, e ent&#xE3;o podemos atribuir o novo valor do campo de texto no estado do componente e utilizar ele onde quisermos no mesmo. </p>
+<h2 id="m&#xE9;todos-como-props">M&#xE9;todos como props</h2>
+<p>Outra coisa que podemos fazer e &#xE9; bem comum no mundo React &#xE9; passar fun&#xE7;&#xF5;es como props, assim podemos emitir um eventos no componente pai pelo componente filho:</p>
+<p>Deixe nosso arquivo <strong>src/App.js</strong> assim:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> HelloStateless <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./HelloStateless&apos;</span>;
+<span class="hljs-keyword">import</span> HelloStateful <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./HelloStateful&apos;</span>;
+<span class="hljs-keyword">import</span> HelloForm <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./HelloForm&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    exibirAlerta(texto) {
+        alert(<span class="hljs-string">&apos;[App.js] &apos;</span> + texto)
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">HelloStateless</span> <span class="hljs-attr">nome</span>=<span class="hljs-string">&quot;seu nome&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloStateless</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">HelloStateful</span> <span class="hljs-attr">nome</span>=<span class="hljs-string">&quot;seu nome&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloStateful</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">HelloStateful</span> <span class="hljs-attr">nome</span>=<span class="hljs-string">&quot;outro nome&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloStateful</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">HelloForm</span> <span class="hljs-attr">exibeAlerta</span>=<span class="hljs-string">{this.exibirAlerta}</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">HelloForm</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> App;
+</code></pre>
+<p>E nosso <strong>src/HelloForm.js</strong> assim:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HelloForm</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    state = {
+        texto: <span class="hljs-string">&apos;&apos;</span>
+    };
+
+    handleTextChange(e) {
+        <span class="hljs-keyword">this</span>.setState({
+            texto: e.target.value
+        });
+    }
+
+    handleClick() {
+        <span class="hljs-keyword">this</span>.props.exibeAlerta(<span class="hljs-keyword">this</span>.state.texto);
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                Digite o texto: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">onChange</span>=<span class="hljs-string">{this.handleTextChange.bind(this)}</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">input</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{this.state.texto}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.handleClick.bind(this)}</span>&gt;</span>Exibir alerta<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> HelloForm;
+</code></pre>
+<p>Note que agora ao clicarmos no bot&#xE3;o, a fun&#xE7;&#xE3;o passada via prop &#xE9; executada, assim voc&#xEA; pode utilizar o valor digitado no componente <code>HelloForm</code> no seu componente <code>App</code>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lifecycles.html" class="navigation navigation-prev " aria-label="Previous page: Life Cycles">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="styles.html" class="navigation navigation-next " aria-label="Next page: Estilos">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Formulários","level":"1.4.4","depth":2,"next":{"title":"Estilos","level":"1.4.5","depth":2,"path":"components/styles.md","ref":"components/styles.md","articles":[]},"previous":{"title":"Life Cycles","level":"1.4.3","depth":2,"path":"components/lifecycles.md","ref":"components/lifecycles.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Alefe Souza <contact@alefesouza.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React: Zero to Hero","language":"pt-br","links":{"sidebar":{"Código final":"https://github.com/alefesouza/workshop-react/tree/master","Slides":"https://speakerdeck.com/alefesouza/react-zero-to-hero"},"sharing":{"google":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"components/forms.md","mtime":"2019-08-03T03:02:48.745Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-03T06:28:52.967Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119886172-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119886172-4');
+</script>
+</body>
+</html>
+

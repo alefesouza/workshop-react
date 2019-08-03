@@ -1,0 +1,477 @@
+
+<!DOCTYPE HTML>
+<html lang="pt-br" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Componentes · React: Zero to Hero</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Alefe Souza <contact@alefesouza.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="stateless.html" />
+    
+    
+    <link rel="prev" href="../react/jsx.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/alefesouza/workshop-react/tree/master" target="_blank" class="custom-link">Código final</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://speakerdeck.com/alefesouza/react-zero-to-hero" target="_blank" class="custom-link">Slides</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">React: Zero to Hero</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introdução
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../nodejs/">
+            
+                <a href="../nodejs/">
+            
+                    
+                    Node.js
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../nodejs/transpiler.html">
+            
+                <a href="../nodejs/transpiler.html">
+            
+                    
+                    Transpilação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../react/">
+            
+                <a href="../react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../react/start-project.html">
+            
+                <a href="../react/start-project.html">
+            
+                    
+                    Iniciar projeto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../react/virtual-dom.html">
+            
+                <a href="../react/virtual-dom.html">
+            
+                    
+                    Virtual DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../react/jsx.html">
+            
+                <a href="../react/jsx.html">
+            
+                    
+                    JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Componentes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="stateless.html">
+            
+                <a href="stateless.html">
+            
+                    
+                    Stateless
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="stateful.html">
+            
+                <a href="stateful.html">
+            
+                    
+                    Stateful
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="lifecycles.html">
+            
+                <a href="lifecycles.html">
+            
+                    
+                    Life Cycles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="forms.html">
+            
+                <a href="forms.html">
+            
+                    
+                    Formulários
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="styles.html">
+            
+                <a href="styles.html">
+            
+                    
+                    Estilos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../router/">
+            
+                <a href="../router/">
+            
+                    
+                    Rotas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../api/">
+            
+                <a href="../api/">
+            
+                    
+                    Consumindo uma API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../about/">
+            
+                <a href="../about/">
+            
+                    
+                    Sobre o autor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Componentes</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="componentes">Componentes</h1>
+<p>Componentes s&#xE3;o uma forma de declarar interfaces baseadas em HTML, CSS e JavaScript em partes pequenas, dessa forma voc&#xEA; pode reutiliz&#xE1;-las em diversas partes da sua aplica&#xE7;&#xE3;o.</p>
+<p>Componentes tamb&#xE9;m s&#xE3;o um dos principais pilares de qualquer framework front-end moderno, React, Angular e Vue.js se baseiam principalmente nisso se diferenciando apenas na forma de declara&#xE7;&#xE3;o.</p>
+<ul>
+<li>No React &#xE9; comum se utilizar o JSX e muito JavaScript.</li>
+<li>No Angular &#xE9; comum utilizar classes em TypeScript, com templates HTML em um arquivo separado e CSS em outro arquivo.</li>
+<li>No Vue.js &#xE9; comum utilizar objetos JavaScript e templates HTML e CSS em um &#xFA;nico arquivo .vue.</li>
+</ul>
+<p>No React temos dois tipos de componentes, os <em>stateless</em>, que se baseiam em apenas uma fun&#xE7;&#xE3;o comum que retorna um JSX, ideal para componentes simples, e os <em>stateful</em>, que se baseiam em uma classe comum e retornam o JSX no m&#xE9;todo render, nas classes voc&#xEA; pode usar funcionalidades a mais como o gerenciamento de estado e m&#xE9;todo de lifecycle.</p>
+<p>Na vers&#xE3;o mais recente do React (16.8) os componentes <em>stateless</em> tamb&#xE9;m suportam isso atrav&#xE9;s do <a href="https://reactjs.org/docs/hooks-intro.html" target="_blank">React Hooks</a>, que n&#xE3;o abordaremos no workshop.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../react/jsx.html" class="navigation navigation-prev " aria-label="Previous page: JSX">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="stateless.html" class="navigation navigation-next " aria-label="Next page: Stateless">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Componentes","level":"1.4","depth":1,"next":{"title":"Stateless","level":"1.4.1","depth":2,"path":"components/stateless.md","ref":"components/stateless.md","articles":[]},"previous":{"title":"JSX","level":"1.3.3","depth":2,"path":"react/jsx.md","ref":"react/jsx.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Alefe Souza <contact@alefesouza.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React: Zero to Hero","language":"pt-br","links":{"sidebar":{"Código final":"https://github.com/alefesouza/workshop-react/tree/master","Slides":"https://speakerdeck.com/alefesouza/react-zero-to-hero"},"sharing":{"google":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"components/README.md","mtime":"2019-08-02T21:01:58.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-03T06:28:52.967Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119886172-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119886172-4');
+</script>
+</body>
+</html>
+

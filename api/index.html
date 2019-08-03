@@ -1,0 +1,561 @@
+
+<!DOCTYPE HTML>
+<html lang="pt-br" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Consumindo uma API · React: Zero to Hero</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Alefe Souza <contact@alefesouza.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../about/" />
+    
+    
+    <link rel="prev" href="../router/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Escreva para pesquisar" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://github.com/alefesouza/workshop-react/tree/master" target="_blank" class="custom-link">Código final</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://speakerdeck.com/alefesouza/react-zero-to-hero" target="_blank" class="custom-link">Slides</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">React: Zero to Hero</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introdução
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../nodejs/">
+            
+                <a href="../nodejs/">
+            
+                    
+                    Node.js
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../nodejs/transpiler.html">
+            
+                <a href="../nodejs/transpiler.html">
+            
+                    
+                    Transpilação
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../react/">
+            
+                <a href="../react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../react/start-project.html">
+            
+                <a href="../react/start-project.html">
+            
+                    
+                    Iniciar projeto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../react/virtual-dom.html">
+            
+                <a href="../react/virtual-dom.html">
+            
+                    
+                    Virtual DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../react/jsx.html">
+            
+                <a href="../react/jsx.html">
+            
+                    
+                    JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../components/">
+            
+                <a href="../components/">
+            
+                    
+                    Componentes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../components/stateless.html">
+            
+                <a href="../components/stateless.html">
+            
+                    
+                    Stateless
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../components/stateful.html">
+            
+                <a href="../components/stateful.html">
+            
+                    
+                    Stateful
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../components/lifecycles.html">
+            
+                <a href="../components/lifecycles.html">
+            
+                    
+                    Life Cycles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../components/forms.html">
+            
+                <a href="../components/forms.html">
+            
+                    
+                    Formulários
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../components/styles.html">
+            
+                <a href="../components/styles.html">
+            
+                    
+                    Estilos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../router/">
+            
+                <a href="../router/">
+            
+                    
+                    Rotas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Consumindo uma API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../about/">
+            
+                <a href="../about/">
+            
+                    
+                    Sobre o autor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Publicado com GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Consumindo uma API</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="consumindo-uma-api">Consumindo uma API</h1>
+<p>Consumir e enviar conte&#xFA;dos para uma API tamb&#xE9;m em algo muito comum em aplica&#xE7;&#xF5;es front-end modernas, pois at&#xE9; agora n&#xE3;o utilizamos o back-end para nada.</p>
+<p>Vamos consumir uma simples API e exibir utilizando o React, para isso utilizaremos a API do <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" target="_blank"><code>fetch</code></a>, que &#xE9; uma forma nativa do navegador e muito simples para trabalhar com requisi&#xE7;&#xF5;es HTTP no JavaScript.</p>
+<p>Consumiremos <a href="http://alefesouza.dev/api/languages.php" target="_blank">esta API</a> com uma lista de linguagens de programa&#xE7;&#xE3;o e exibiremos seus conte&#xFA;do utilizando JSX.</p>
+<p>Lembra que na sess&#xE3;o sobre lifecycles foi dito que o lifecycle/hook <code>componentDidMount()</code> era o melhor para isso? Deixe o arquivo <strong>src/List.js</strong> com o c&#xF3;digo a seguir:</p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">List</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    state = {
+        linguagens: []
+    };
+
+    componentDidMount() {
+        fetch(<span class="hljs-string">&apos;http://alefesouza.dev/api/languages.php&apos;</span>)
+            .then(res =&gt; res.json())
+            .then(res =&gt; {
+                <span class="hljs-keyword">this</span>.setState({
+                    linguagens: res
+                });
+            });
+    }
+
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Lista de linguagens<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+                <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+                    {this.state.linguagens.map(item =&gt; (
+                        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">key</span>=<span class="hljs-string">{item.id}</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Nome:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> {item.name}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Criador:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> {item.creator}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Ano de cria&#xE7;&#xE3;o:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> {item.year}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    ))}
+                <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> List;
+</code></pre>
+<p>No navegador ao clicar em Lista dever&#xE1; exibir isto:</p>
+<p><img src="assets/1.png" alt="Resultado do c&#xF3;digo acima no navegador"></p>
+<p>Como podemos observar, assim que o componente for carregado, fazemos nossa requisi&#xE7;&#xE3;o a nossa API e ao receber a resposta do servidor, colocamos ela no state do nosso componente.</p>
+<p>Como o React &#xE9; fortemente baseado na sintaxe padr&#xE3;o JavaScript, n&#xE3;o h&#xE1; um <code>*ngFor</code> como no Angular ou um <code>v-for</code> igual no Vue.js, portanto devemos usar um simples <code>.map</code> para iterar sobre o array e exibi-lo diretamente no JSX (sim, isso &#xE9; a pr&#xE1;tica mais comum), tamb&#xE9;m devemos ter um identificador &#xFA;nico como o ID e utiliza-lo no atributo/props <code>key</code> de cada lista que iterarmos, para o React poder identificar claramente qual o item do array representa o elemento renderizado, um exemplo de vantagem nisso &#xE9; que caso voc&#xEA; mude a posi&#xE7;&#xE3;o de algum item, o React se preocupa em apenas mover o elemento HTML ao inv&#xE9;s de renderizar toda a lista novamente.</p>
+<p>Tamb&#xE9;m podemos colocar condicionais e vari&#xE1;veis no nosso JSX para poder ter mensagens de loading por exemplo, coloque o c&#xF3;digo a seguir no seu <strong>src/List.js</strong>: </p>
+<pre><code class="lang-jsx"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">List</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+    state = {
+        linguagens: []
+    };
+
+    componentDidMount() {
+        fetch(<span class="hljs-string">&apos;http://alefesouza.dev/api/languages.php&apos;</span>)
+            .then(res =&gt; res.json())
+            .then(res =&gt; {
+                <span class="hljs-keyword">this</span>.setState({
+                    linguagens: res
+                });
+            });
+    }
+
+    render() {
+        <span class="hljs-keyword">let</span> content = <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Carregando...<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></span>
+
+        <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.state.linguagens.length !== <span class="hljs-number">0</span>) {
+            content = (<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+                {this.state.linguagens.map(item =&gt; (
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">key</span>=<span class="hljs-string">{item.id}</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Nome:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> {item.name}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Criador:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> {item.creator}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>Ano de cria&#xE7;&#xE3;o:<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> {item.year}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                ))}
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></span>)
+        }
+
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Lista de linguagens<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+
+                {content}
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        );
+    }
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> List;
+</code></pre>
+<p>Assim antes de receber a resposta do servidor nosso componente ficar&#xE1; assim:</p>
+<p><img src="assets/2.png" alt="Resultado do c&#xF3;digo acima no navegador, exibindo tela de loading"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../router/" class="navigation navigation-prev " aria-label="Previous page: Rotas">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../about/" class="navigation navigation-next " aria-label="Next page: Sobre o autor">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Consumindo uma API","level":"1.6","depth":1,"next":{"title":"Sobre o autor","level":"1.7","depth":1,"path":"about/README.md","ref":"about/README.md","articles":[]},"previous":{"title":"Rotas","level":"1.5","depth":1,"path":"router/README.md","ref":"router/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Alefe Souza <contact@alefesouza.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"React: Zero to Hero","language":"pt-br","links":{"sidebar":{"Código final":"https://github.com/alefesouza/workshop-react/tree/master","Slides":"https://speakerdeck.com/alefesouza/react-zero-to-hero"},"sharing":{"google":false,"weibo":false,"all":false}},"gitbook":"*"},"file":{"path":"api/README.md","mtime":"2019-08-03T06:28:40.596Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-03T06:28:52.967Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119886172-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119886172-4');
+</script>
+</body>
+</html>
+
