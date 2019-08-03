@@ -1,0 +1,16 @@
+{
+    "title": "React: Zero to Hero",
+    "author": "Alefe Souza <contact@alefesouza.com>",
+    "language": "pt-br",
+    "links": {
+        "sidebar": {
+            "Código final": "https://github.com/alefesouza/workshop-react/tree/master",
+            "Slides": "https://speakerdeck.com/alefesouza/react-zero-to-hero"
+        },
+        "sharing": {
+            "google": false,
+            "weibo": false,
+            "all": false
+        }
+    }
+}
